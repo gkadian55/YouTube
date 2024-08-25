@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>YouTube</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="video.css">
+<link rel="stylesheet" href="header.css">
+<link rel="stylesheet" href="sidebar.css">
+
+<style>
+    p{
+        font-family: roboto, arial;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    body{
+        font-family: Roboto, arial;
+        margin: 0px;
+        padding-top: 80px;
+        padding-left: 96px;
+        padding-right: 24px;
+        padding-bottom: 25px;
+        background-color: rgb(248,248,248);
+    }
+    @media (min-width:1200px){
+        body{
+            padding-left: 244px;
+        }
+    }
+</style>
+
+</head>
+
+<body>
+
+<header class="header">
+    <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+    </div>
+    <div class="middle-section">
+        <input class="search-bar" placeholder="Search" type="text">
+        <button class="search-button">
+            <img class="search-icon" src="icons/search.svg">
+            <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+            <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+            <div class="tooltip">Search with your voice</div>
+        </button>
+    </div>
+    <div class="right-section">
+        <div class="create-section">
+            <img class="upload-icon" src="icons/upload.svg">
+            <div class="tooltip">Create</div>
+        </div>
+        <div class="yt-apps-section">
+            <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+            <div class="tooltip">YouTube apps</div>
+        </div>
+        <div class="notifications-section">
+            <img class="notifications-icon" src="icons/notifications.svg">
+            <div class="notifications-num">7</div>
+            <div class="tooltip">Notifications</div>
+        </div>
+        <img class="yt-pfp" src="thumbnail/yt-pfp.jpg">
+    </div>
+</header>
+
+<nav class="sidebar">
+    <div class="sidebar-subsection">
+        <img src="icons/home.svg">
+        <div>Home</div>
+    </div>
+    <div class="sidebar-subsection">
+        <img src="icons/explore.svg">
+        <div>Explore</div>
+    </div>
+    <div class="sidebar-subsection">
+        <img src="icons/subscriptions.svg">
+        <div>Subscriptions</div>
+    </div>
+    <div class="sidebar-subsection">
+        <img src="icons/originals.svg">
+        <div>Originals</div>
+    </div>
+    <div class="sidebar-subsection">
+        <img src="icons/youtube-music.svg">
+        <div>YouTube Music</div>
+    </div>
+    <div class="sidebar-subsection">
+        <img src="icons/library.svg">
+        <div>Library</div>
+    </div>
+</nav>
+
+<main>
+
+<section class="video-log-grid">
+
+<div class="preview">
+    <div class="thumbnail-container">
+        <a href="https://www.youtube.com/watch?v=qdfkP5PkBbo">
+            <img class="thumbnail" src="thumbnail/thumbnail-1.webp">
+        </a>
+        <div class="video-time">34:22</div>
+    </div>
+    <div class="video-details-grid">
+        <div class="icon-section">
+            <a href="https://www.youtube.com/@GothamChess">
+                <img class="icon" src="thumbnail/icon-1.jpg">
+            </a>
+            <div class="channel-info">
+                <div class="channel-info-icon-section">
+                    <img class="channel-info-icon" src="thumbnail/icon-1.jpg">
+                </div>
+                <div class="channel-detailing">
+                    <div class="channel-name">GothamChess</div>
+                    <div class="sub-count">5.23M subscribers</div>
+                </div>
+            </div>
+        </div>
+        <div class="detail">
+            <a class="video-link" href="https://www.youtube.com/watch?v=qdfkP5PkBbo">
+                <p class="video-title">UNREAL Chess by Magnus Carlsen</p>
+            </a>
+            <a class="channel-link" href="https://www.youtube.com/@GothamChess">
+                <p class="author">GothamChess</p>
+            </a>
+            <p class="stats">583K views &#8226; 8 days ago</p>
+        </div>
+    </div>
+</div>
+
+<div class="preview">
+    <div class="thumbnail-container">
+        <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=17555s">
+            <img class="thumbnail" src="thumbnail/thumbnail-2.webp">
+        </a>
+        <div class="video-time">6:31:24</div>
+    </div>
+    <div class="video-details-grid">
+        <div class="icon-section">
+            <a href="https://www.youtube.com/@SuperSimpleDev">
+                <img class="icon" src="thumbnail/icon-2.jpg">
+            </a>
+            <div class="channel-info">
+                <div class="channel-info-icon-section">
+                    <img class="channel-info-icon" src="thumbnail/icon-2.jpg">
+                </div>
+                <div class="channel-detailing">
+                    <div class="channel-name">SuperSimpleDev</div>
+                    <div class="sub-count">479K subscribers</div>
+                </div>
+            </div>
+        </div>
+        <div class="detail">
+            <a class="video-link" href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=17555s">
+                <p class="video-title">HTML &#38; CSS Full Course</p>
+            </a>
+            <a class="channel-link" href="https://www.youtube.com/@SuperSimpleDev">
+                <p class="author">SuperSimpleDev</p>
+            </a>
+            <p class="stats">10M views &#8226; 2 years ago</p>
+        </div>
+    </div>
+</div>
+
+<div class="preview">
+    <div class="thumbnail-container">
+        <a href="https://www.youtube.com/watch?v=UK5cu3LJ9qk">
+            <img class="thumbnail" src="thumbnail/thumbnail-3.webp">
+        </a>
+        <div class="video-time">15:08</div>
+    </div>
+    <div class="video-details-grid">
+        <div class="icon-section">
+            <a href="https://www.youtube.com/@UEFA">
+                <img class="icon" src="thumbnail/icon-3.jpg">
+            </a>
+            <div class="channel-info">
+                <div class="channel-info-icon-section">
+                    <img class="channel-info-icon" src="thumbnail/icon-3.jpg">
+                </div>
+                <div class="channel-detailing">
+                    <div class="channel-name">UEFA</div>
+                    <div class="sub-count">4.54M subscribers</div>
+                </div>
+            </div>
+        </div>
+        <div class="detail">
+            <a class="video-link" href="https://www.youtube.com/watch?v=UK5cu3LJ9qk">
+                <p class="video-title">CRISTIANO RONALDO: ALL #UCL GOALS!</p>
+            </a>
+            <a class="channel-link" href="https://www.youtube.com/@UEFA">
+                <p class="author">UEFA</p>
+            </a>
+            <p class="stats">8.5M views &#8226; 1 year ago</p>
+        </div>
+    </div>
+</div>
+
+<div class="preview">
+    <div class="thumbnail-container">
+        <a href="https://www.youtube.com/watch?v=TUVcZfQe-Kw">
+            <img class="thumbnail" src="thumbnail/thumbnail-4.webp">
+        </a>
+        <div class="video-time">3:51</div>
+    </div>
+    <div class="video-details-grid">
+        <div class="icon-section">
+            <a href="https://www.youtube.com/@dualipa">
+                <img class="icon" src="thumbnail/icon-4.jpg">
+            </a>
+            <div class="channel-info">
+                <div class="channel-info-icon-section">
+                    <img class="channel-info-icon" src="thumbnail/icon-4.jpg">
+                </div>
+                <div class="channel-detailing">
+                    <div class="channel-name">Dua Lipa</div>
+                    <div class="sub-count">23.7M subscribers</div>
+                </div>
+            </div>
+        </div>
+        <div class="detail">
+            <a class="video-link" href="https://www.youtube.com/watch?v=TUVcZfQe-Kw">
+                <p class="video-title">Dua Lipa - Levitating Featuring DaBaby (Official Music Video)</p>
+            </a>
+            <a class="channel-link" href="https://www.youtube.com/@dualipa">
+                <p class="author">Dua Lipa</p>
+            </a>
+            <p class="stats">893M views &#8226; 3 years ago</p>
+        </div>
+    </div>
+</div>
+
+<div class="preview">
+    <div class="thumbnail-container">
+        <a href="https://www.youtube.com/watch?v=laNA2HgwYXU">
+            <img class="thumbnail" src="thumbnail/thumbnail-5.webp">
+        </a>
+        <div class="video-time">2:02</div>
+    </div>
+    <div class="video-details-grid">
+        <div class="icon-section">
+            <a href="https://www.youtube.com/@VancityReynolds">
+                <img class="icon" src="thumbnail/icon-5.jpg">
+            </a>
+            <div class="channel-info">
+                <div class="channel-info-icon-section">
+                    <img class="channel-info-icon" src="thumbnail/icon-5.jpg">
+                </div>
+                <div class="channel-detailing">
+                    <div class="channel-name">Ryan Reynolds</div>
+                    <div class="sub-count">4.64M subscribers</div>
+                </div>
+            </div>
+        </div>
+        <div class="detail">
+            <a class="video-link" href="https://www.youtube.com/watch?v=laNA2HgwYXU">
+                <p class="video-title">Deadpool &#38; Wolverine &#124; Final Trailer</p>
+            </a>
+            <a class="channel-link" href="https://www.youtube.com/@VancityReynolds">
+                <p class="author">Ryan Reynolds</p>
+            </a>
+            <p class="stats">10M views &#8226; 8 days ago</p>
+        </div>
+    </div>
+</div>
+
+<div class="preview">
+    <div class="thumbnail-container">
+        <a href="https://www.youtube.com/watch?v=Ocl-PnYY7K4">
+            <img class="thumbnail" src="thumbnail/thumbnail-6.webp">
+        </a>
+        <div class="video-time">14:31</div>
+    </div>
+    <div class="video-details-grid">
+        <div class="icon-section">
+            <a href="https://www.youtube.com/@carmenelainee">
+                <img class="icon" src="thumbnail/icon-6.jpg">
+            </a>
+            <div class="channel-info">
+                <div class="channel-info-icon-section">
+                    <img class="channel-info-icon" src="thumbnail/icon-6.jpg">
+                </div>
+                <div class="channel-detailing">
+                    <div class="channel-name">carmen elaine</div>
+                    <div class="sub-count">534K subscribers</div>
+                </div>
+            </div>
+        </div>
+        <div class="detail">
+            <a class="video-link" href="https://www.youtube.com/watch?v=Ocl-PnYY7K4">
+                <p class="video-title">THE FINALE IS HERE &#124; Jujutsu Kaisen Season 2 Episode 23 Reaction</p>
+            </a>
+            <a class="channel-link" href="https://www.youtube.com/@carmenelainee">
+                <p class="author">carmen elaine</p>
+            </a>
+            <p class="stats">263K views &#8226; 6 months ago</p>
+        </div>
+    </div>
+</div>
+
+<div class="preview">
+    <div class="thumbnail-container">
+        <a href="https://www.youtube.com/watch?v=Fc1qPumIyXM">
+            <img class="thumbnail" src="thumbnail/thumbnail-7.webp">
+        </a>
+        <div class="video-time">15:51</div>
+    </div>
+    <div class="video-details-grid">
+        <div class="icon-section">
+            <a href="https://www.youtube.com/@GothamChess">
+                <img class="icon" src="thumbnail/icon-1.jpg">
+            </a>
+            <div class="channel-info">
+                <div class="channel-info-icon-section">
+                    <img class="channel-info-icon" src="thumbnail/icon-1.jpg">
+                </div>
+                <div class="channel-detailing">
+                    <div class="channel-name">GothamChess</div>
+                    <div class="sub-count">5.23M subscribers</div>
+                </div>
+            </div>
+        </div>
+        <div class="detail">
+            <a class="video-link" href="https://www.youtube.com/watch?v=Fc1qPumIyXM">
+                <p class="video-title">EXCLUSIVE Magnus Carlsen Interview ft. GothamChess</p>
+            </a>
+            <a class="channel-link" href="https://www.youtube.com/@GothamChess">
+                <p class="author">GothamChess</p>
+            </a>
+            <p class="stats">1.8M views &#8226; 7 months ago</p>
+        </div>
+    </div>
+</div>
+
+<div class="preview">
+    <div class="thumbnail-container">
+        <a href="https://www.youtube.com/watch?v=JkbNdd8pF7k&t=1s">
+            <img class="thumbnail" src="thumbnail/thumbnail-8.webp">
+        </a>
+        <div class="video-time">16:49</div>
+    </div>
+    <div class="video-details-grid">
+        <div class="icon-section">
+            <a href="https://www.youtube.com/@takashiifromjapan">
+                <img class="icon" src="thumbnail/icon-8.jpg">
+            </a>
+            <div class="channel-info">
+                <div class="channel-info-icon-section">
+                    <img class="channel-info-icon" src="thumbnail/icon-8.jpg">
+                </div>
+                <div class="channel-detailing">
+                    <div class="channel-name">TAKASHii from Japan</div>
+                    <div class="sub-count">2.1M subscribers</div>
+                </div>
+            </div>
+        </div>
+        <div class="detail">
+            <a class="video-link" href="https://www.youtube.com/watch?v=JkbNdd8pF7k&t=1s">
+                <p class="video-title">What Anime Do Japanese Watch in 2024?</p>
+            </a>
+            <a class="channel-link" href="https://www.youtube.com/@takashiifromjapan">
+                <p class="author">TAKASHii from Japan</p>
+            </a>
+            <p class="stats">1M views &#8226; 2 months ago</p>
+        </div>
+    </div>
+</div>
+
+<div class="preview">
+    <div class="thumbnail-container">
+        <a href="https://www.youtube.com/watch?v=4DfVxVeqk2o">
+            <img class="thumbnail" src="thumbnail/thumbnail-9.webp">
+        </a>
+        <div class="video-time">3:41</div>
+    </div>
+    <div class="video-details-grid">
+        <div class="icon-section">
+            <a href="https://www.youtube.com/@KaranAujlaOfficial">
+                <img class="icon" src="thumbnail/icon-9.jpg">
+            </a>
+            <div class="channel-info">
+                <div class="channel-info-icon-section">
+                    <img class="channel-info-icon" src="thumbnail/icon-9.jpg">
+                </div>
+                <div class="channel-detailing">
+                    <div class="channel-name">Karan Aujla</div>
+                    <div class="sub-count">2.36M subscribers</div>
+                </div>
+            </div>
+        </div>
+        <div class="detail">
+            <a class="video-link" href="https://www.youtube.com/watch?v=4DfVxVeqk2o">
+                <p class="video-title">52 Bars (Official Video) Karan Aujla &#124; Ikky &#124; Four You EP &#124; First Song &#124; Latest Punjabi Songs 2023</p>
+            </a>
+            <a class="channel-link" href="https://www.youtube.com/@KaranAujlaOfficial">
+                <p class="author">Karan Aujla</p>
+            </a>
+            <p class="stats">2.36M views &#8226; 1 year ago</p>
+        </div>
+    </div>
+</div>
+
+<div class="preview">
+    <div class="thumbnail-container">
+        <a href="https://www.youtube.com/watch?v=1-JWDzKM9nk">
+            <img class="thumbnail" src="thumbnail/thumbnail-10.webp">
+        </a>
+        <div class="video-time">2:39</div>
+    </div>
+    <div class="video-details-grid">
+        <div class="icon-section">
+            <a href="https://www.youtube.com/@realmadrid">
+                <img class="icon" src="thumbnail/icon-10.jpg">
+            </a>
+            <div class="channel-info">
+                <div class="channel-info-icon-section">
+                    <img class="channel-info-icon" src="thumbnail/icon-10.jpg">
+                </div>
+                <div class="channel-detailing">
+                    <div class="channel-name">Real Madrid</div>
+                    <div class="sub-count">14.7M subscribers</div>
+                </div>
+            </div>
+        </div>
+        <div class="detail">
+            <a class="video-link" href="https://www.youtube.com/watch?v=1-JWDzKM9nk">
+                <p class="video-title">THANK YOU, KROOS  Real Madrid LEGEND</p>
+            </a>
+            <a class="channel-link" href="https://www.youtube.com/@realmadrid">
+                <p class="author">Real Madrid</p>
+            </a>
+            <p class="stats">1.8M views &#8226; 2 months ago</p>
+        </div>
+    </div>
+</div>
+
+<div class="preview">
+    <div class="thumbnail-container">
+        <a href="https://www.youtube.com/watch?v=dT2owtxkU8k">
+            <img class="thumbnail" src="thumbnail/thumbnail-11.webp">
+        </a>
+        <div class="video-time">3:57</div>
+    </div>
+    <div class="video-details-grid">
+        <div class="icon-section">
+            <a href="https://www.youtube.com/@shawnmendesvevo">
+                <img class="icon" src="thumbnail/icon-11.jpg">
+            </a>
+            <div class="channel-info">
+                <div class="channel-info-icon-section">
+                    <img class="channel-info-icon" src="thumbnail/icon-11.jpg">
+                </div>
+                <div class="channel-detailing">
+                    <div class="channel-name">Shawn Mendes</div>
+                    <div class="sub-count">30.2M subscribers</div>
+                </div>
+            </div>
+        </div>
+        <div class="detail">
+            <a class="video-link" href="https://www.youtube.com/watch?v=dT2owtxkU8k">
+                <p class="video-title">Shawn Mendes - There's Nothing Holdin' Me Back (Official Music Video)</p>
+            </a>
+            <a class="channel-link" href="https://www.youtube.com/@shawnmendesvevo">
+                <p class="author">Shawn Mendes</p>
+            </a>
+            <p class="stats">1.2B views &#8226; 7 years ago</p>
+        </div>
+    </div>
+</div>
+
+<div class="preview">
+    <div class="thumbnail-container">
+        <a href="https://www.youtube.com/watch?v=gEpDWjbzPJA">
+            <img class="thumbnail" src="thumbnail/thumbnail-12.webp">
+        </a>
+        <div class="video-time">1:00:13</div>
+    </div>
+    <div class="video-details-grid">
+        <div class="icon-section">
+            <a href="https://www.youtube.com/@Sidemen">
+                <img class="icon" src="thumbnail/icon-12.jpg">
+            </a>
+            <div class="channel-info">
+                <div class="channel-info-icon-section">
+                    <img class="channel-info-icon" src="thumbnail/icon-12.jpg">
+                </div>
+                <div class="channel-detailing">
+                    <div class="channel-name">Sidemen</div>
+                    <div class="sub-count">21.5M subscribers</div>
+                </div>
+            </div>
+        </div>
+        <div class="detail">
+            <a class="video-link" href="https://www.youtube.com/watch?v=gEpDWjbzPJA">
+                <p class="video-title">SIDEMEN SPLIT OR STEAL 2</p>
+            </a>
+            <a class="channel-link" href="https://www.youtube.com/@Sidemen">
+                <p class="author">Sidemen</p>
+            </a>
+            <p class="stats">8.9M views &#8226; 7 months ago</p>
+        </div>
+    </div>
+</div>
+
+</section>
+
+</main>
+
+</body>
+
+</html>
